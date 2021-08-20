@@ -45,7 +45,12 @@ img {
 .nav-item {
 	text-align: left !important;
 }
-
+.nav-wrapper .container {
+	padding: 0 60px;
+}
+.navbar-brand img {
+	width: 16px;
+}
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
@@ -82,8 +87,11 @@ img {
 .footer-links-terms ul {
 	display: flex;
 }
-.footer-links-terms ul li {
-	padding: 0 10px;
+.footer-links-terms ul li a{
+	padding: 0 10px 0 0;
+	margin: 0 10px 0 0;
+	border-right: 1px solid rgb(81, 81, 84, 0.2);
+
 }
 .footer-links-terms ul li:first-child {
 	padding-left: 0;
@@ -322,7 +330,7 @@ img {
 /* Alert section */
 .alert-section {
 	text-align: center;
-	padding: 17px;
+	padding: 5px 17px;
 }
 .alert-title {
 	font-weight: 300;
@@ -350,9 +358,6 @@ img {
 		padding-left: 10px;
 		position: absolute;
 		right: 25px;
-	}
-	.nav-wrapper {
-		background: rgba(0,0,0,1);
 	}
 	.nav-item {
 		border-bottom: 1px solid rgb(94, 94, 94);
